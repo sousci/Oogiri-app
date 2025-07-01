@@ -1,8 +1,8 @@
 
 # 大喜利AIアプリ
 
-このアプリは、2025年6月28日に開催された  
-[第2回生成AIハッカソン＠大阪「人間はコードを書いてはいけない？！」](https://osakan-space.connpass.com/event/346084/)
+このアプリは、2025年6月28日に開催された、**第2回生成AIハッカソン＠大阪「人間はコードを書いてはいけない？！」**
+[https://osakan-space.connpass.com/event/346084/](https://osakan-space.connpass.com/event/346084/)
  にて制作されました。  
 OpenAIのAPIを使用し、Flask上で動作するシンプルなWebアプリです。
 
