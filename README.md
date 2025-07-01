@@ -60,7 +60,48 @@ pip install -r requirements.txt
 
 ---
 
-### ③ アプリの起動
+### ③ OpenAI APIキーの取得
+※OpenAI APIは従量課金制。1リクエストあたり1円程度だが、上限額を設定しておく。クレジット決算のみ（2025/06/28）  
+※APIキーはシステム環境変数に格納しておき、アプリから呼び出して使用する  
+
+- こちら(https://platform.openai.com/settings/organization/api-keys )にログインして、"+ Create new secret key"を押してAPIキーを発行する
+
+- システム環境変数を設定する
+
+---
+【Windowsの場合】
+- コマンドプロンプトまたはPowerShellを開く
+- 次のコマンドを実行（yourkeyのところを発行されたAPIキーに置き換える）
+```
+setx OPENAI_API_KEY "yourkey"
+```
+
+- 正しく設定されたかの確認
+```
+echo %OPENAI_API_KEY%
+```
+
+---
+【Macの場合】  
+- ターミナルを開く
+- 次のコマンドを実行（yourkeyのところを発行されたAPIキーに置き換える）
+```
+echo "export OPENAI_API_KEY='yourkey'" >> ~/.zshrc
+```
+
+```
+source ~/.zshrc
+```
+
+- 正しく設定されたかの確認
+```
+echo $OPENAI_API_KEY
+```
+ ---
+《参考》「OpenAI APIキーを安全に使用するためのベストプラクティス」https://note.com/komzweb/n/n3392c290d7b8
+
+
+### ④ アプリの起動
 - 展開したフォルダに移動：
 
 ```
