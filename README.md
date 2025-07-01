@@ -2,7 +2,7 @@
 # 大喜利AIアプリ
 
 このアプリは、2025年6月28日に開催された  
-[第2回生成AIハッカソン＠大阪「人間はコードを書いてはいけない？！」](https://osakan-space.connpass.com/event/350982/) にて制作されました。  
+[第2回生成AIハッカソン＠大阪「人間はコードを書いてはいけない？！](https://osakan-space.connpass.com/event/346084/) にて制作されました。  
 OpenAIのAPIを使用し、Flask上で動作するシンプルなWebアプリです。
 
 ![アプリ画面](ogiri_app.jpg)
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 python ogiri.py
 ```
 
-④ Webブラウザから、[http://127.0.0.1:5000/](http://127.0.0.1:5000/)にアクセス
+④ Webブラウザから、[http://127.0.0.1:5000/](http://127.0.0.1:5000/) にアクセス
 
 
 ## 依存ライブラリ(requirements.txt)
