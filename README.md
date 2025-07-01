@@ -66,7 +66,7 @@ pip install -r requirements.txt
 python ogiri.py
 ```
 
-④ Webブラウザから、http://127.0.0.1:5000/にアクセス
+④ Webブラウザから、[http://127.0.0.1:5000/](http://127.0.0.1:5000/)にアクセス
 
 
 ## 依存ライブラリ(requirements.txt)
