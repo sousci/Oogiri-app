@@ -26,7 +26,7 @@ HTML = """
             background: #f0f0f5;
 
                 /* === 最背面背景画像追加（修正済）=== */
-            background-image: url('/static/2.png');
+            background-image: url('/static/background.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -135,7 +135,7 @@ HTML = """
     </header>
 
     <div class="main">
-        <img src="/static/raw.png" class="person-img">
+        <img src="/static/character.png" class="person-img">
         <div class="speech-container" id="speechContainer">
             <div class="speech-text" id="response"></div>
         </div>
